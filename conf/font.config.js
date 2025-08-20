@@ -12,7 +12,8 @@ module.exports = {
     // 'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
     'https://fonts.googleapis.com/css?family=Bitter&display=swap',
     'https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300&display=swap',
-    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap'
+    'https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@300&display=swap',
+    'https://cdn.jsdelivr.net/gh/monologuerain/blig-img@main/GenRyuMin2JP-SB.css'
   ],
   // 无衬线字体 例如'"LXGW WenKai"'
   FONT_SANS: [
@@ -38,6 +39,7 @@ module.exports = {
   FONT_SERIF: [
     // '"LXGW WenKai"',
     'Bitter',
+    'GenRyuMin',
     '"Noto Serif SC"',
     'SimSun',
     '"Times New Roman"',
