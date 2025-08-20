@@ -1,7 +1,7 @@
 module.exports = {
 // START ************网站字体*****************
 
-FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif', 
+FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-serif',
 // 字体CSS 例如 https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css
 FONT_URL: [
   'https://npm.elemecdn.com/lxgw-wenkai-webfont@1.6.0/style.css',
