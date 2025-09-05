@@ -1,0 +1,26 @@
+@font-face {
+  /* 
+    给你的字体起一个清晰的昵称。
+    "GenRyuMin2 JP L" 既好记又标准。
+  */
+  font-family: 'GenRyuMin2 JP L';
+
+  /* 
+    告诉浏览器去哪里找这个字体文件。
+    这个路径必须和你存放的位置完全一致！
+  */
+  src: url('/webfonts/GenRyuMin2JP-L.woff2') format('woff2');
+
+  /* 
+    因为你的字体文件名里有 "L" (Light)，
+    我们最好明确告诉浏览器它的字重是 300 (Light)。
+    这样更专业！(Regular 是 400, Bold 是 700)
+  */
+  font-weight: 300;
+  font-style: normal;
+
+  /* 
+    性能优化魔法，让文字更快显示。
+  */
+  font-display: swap;
+}
